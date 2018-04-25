@@ -1,5 +1,5 @@
 <nav aria-label="Paged navigation" class="navigation--letter">
-  {! <ol> !}
+
           <li data-letter="all">
           <a href="/people">All</a>
           </li>
@@ -23,88 +23,5 @@
               </li>
             {/presence}
           {/data}
-
-          {! {#data.letters}
-          Hello
-          {/data.letters} !}
-          {! <li class="active" data-letter="a">
-          <span>a</span>
-          </li>
-          <li data-letter="b">
-          <a data-atoz-see="true" href="/people/a-z/b">b</a>
-          </li>
-          <li data-letter="c">
-          <a data-atoz-see="true" href="/people/a-z/c">c</a>
-          </li>
-          <li data-letter="d">
-          <a data-atoz-see="true" href="/people/a-z/d">d</a>
-          </li>
-          <li data-letter="e">
-          <a data-atoz-see="true" href="/people/a-z/e">e</a>
-          </li>
-          <li data-letter="f">
-          <a data-atoz-see="true" href="/people/a-z/f">f</a>
-          </li>
-          <li data-letter="g">
-          <a data-atoz-see="true" href="/people/a-z/g">g</a>
-          </li>
-          <li data-letter="h">
-          <a data-atoz-see="true" href="/people/a-z/h">h</a>
-          </li>
-          <li data-letter="i">
-          <a data-atoz-see="true" href="/people/a-z/i">i</a>
-          </li>
-          <li data-letter="j">
-          <a data-atoz-see="true" href="/people/a-z/j">j</a>
-          </li>
-          <li data-letter="k">
-          <a data-atoz-see="true" href="/people/a-z/k">k</a>
-          </li>
-          <li data-letter="l">
-          <a data-atoz-see="true" href="/people/a-z/l">l</a>
-          </li>
-          <li data-letter="m">
-          <a data-atoz-see="true" href="/people/a-z/m">m</a>
-          </li>
-          <li data-letter="n">
-          <a data-atoz-see="true" href="/people/a-z/n">n</a>
-          </li>
-          <li data-letter="o">
-          <a data-atoz-see="true" href="/people/a-z/o">o</a>
-          </li>
-          <li data-letter="p">
-          <a data-atoz-see="true" href="/people/a-z/p">p</a>
-          </li>
-          <li data-letter="q">
-          <a data-atoz-see="true" href="/people/a-z/q">q</a>
-          </li>
-          <li data-letter="r">
-          <a data-atoz-see="true" href="/people/a-z/r">r</a>
-          </li>
-          <li data-letter="s">
-          <a data-atoz-see="true" href="/people/a-z/s">s</a>
-          </li>
-          <li data-letter="t">
-          <a data-atoz-see="true" href="/people/a-z/t">t</a>
-          </li>
-          <li data-letter="u">
-          <a data-atoz-see="true" href="/people/a-z/u">u</a>
-          </li>
-          <li data-letter="v">
-          <a data-atoz-see="true" href="/people/a-z/v">v</a>
-          </li>
-          <li data-letter="w">
-          <a data-atoz-see="true" href="/people/a-z/w">w</a>
-          </li>
-          <li data-letter="x">
-          <span>x</span>
-          </li>
-          <li data-letter="y">
-          <a data-atoz-see="true" href="/people/a-z/y">y</a>
-          </li>
-          <li data-letter="z">
-          <a data-atoz-see="true" href="/people/a-z/z">z</a>
-          </li>
-
-  </ol> !}
+          
 </nav>
