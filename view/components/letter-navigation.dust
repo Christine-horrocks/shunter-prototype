@@ -1,29 +1,31 @@
 <section>
-  <nav aria-label="Paged navigation" class="navigation--letter">
+  <div class="container">
+    <nav aria-label="Paged navigation" class="navigation--letter">
 
-            <li data-letter="all">
-              <a href="/{data[0].objects_name}">All</a>
+      <li data-letter="all">
+        <a href="/{data[0].objects_name}">All</a>
+      </li>
+
+
+      {#data}
+        {?active}
+            <li class="active" data-letter="{letter}">
+              <span>{letter}</span>
             </li>
+        {:else}
+          {?presence}
+            <li  data-letter="{letter}">
+              <a data-atoz-see="true" href="/{objects_name}/a-z/{letter}">{letter}</a>
+            </li>
+          {/presence}
+        {/active}
+        {^presence}
+          <li data-letter="{letter}">
+            <span>{letter}</span>
+          </li>
+        {/presence}
+      {/data}
 
-
-            {#data}
-              {?active}
-                  <li class="active" data-letter="{letter}">
-                    <span>{letter}</span>
-                  </li>
-              {:else}
-                {?presence}
-                  <li  data-letter="{letter}">
-                    <a data-atoz-see="true" href="/{objects_name}/a-z/{letter}">{letter}</a>
-                  </li>
-                {/presence}
-              {/active}
-              {^presence}
-                <li data-letter="{letter}">
-                  <span>{letter}</span>
-                </li>
-              {/presence}
-            {/data}
-
-  </nav>
-</section
+    </nav>
+  </div>
+</section>
