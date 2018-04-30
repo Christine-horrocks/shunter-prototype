@@ -1,5 +1,7 @@
-<div class="section--primary" tabindex="0">
-  <div class="container">
-    <h1>{data}</h1>
+<section>
+  <div class="section--primary" tabindex="0">
+    <div class="container">
+      <h1>{data}</h1>
+    </div>
   </div>
-</div>
+</section>

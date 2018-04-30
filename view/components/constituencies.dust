@@ -3,19 +3,19 @@
     <ul class='list--block'>
       {#data}
       <li>
-       <figure>
-          <a href='/people/{graph_id}' tabindex='-1'>
+       {! <figure>
+          <a href='/constituencies/{graph_id}' tabindex='-1'>
             <picture>
               <img alt='{display_name}' src='{image_url}'>
             </picture>
           </a>
-      </figure>
+      </figure> !}
         <div class='list--details'>
           <h2>
-            <a href="/people/{graph_id}">{display_name}</a>
+            <a href="/constituencies/{graph_id}">{constituency_name}</a>
           </h2>
-          <p> {role}</p>
-          <p> {current_party}</p>
+            <p> {mp_display_name} </p>
+            <p> {party} </p>
         </div>
       </li>
       {/data}

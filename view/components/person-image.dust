@@ -1,9 +1,11 @@
-<figure>
-  <a href="{components.image.figure-url}", tabindex: "-1">
-    <picture>
-      <source srcset={components.image.image-srcset1}, media: "(min-width: 480px)">
-      <source srcset={components.image.image-srcset1}>
-      <img src="{components.image.image-src}" alt="{components.image.image-alt}">
-    </picture>
-  </a>
-</figure>
+<section>
+  <figure>
+    <a href="{components.image.figure-url}", tabindex: "-1">
+      <picture>
+        <source srcset={components.image.image-srcset1}, media: "(min-width: 480px)">
+        <source srcset={components.image.image-srcset1}>
+        <img src="{components.image.image-src}" alt="{components.image.image-alt}">
+      </picture>
+    </a>
+  </figure>
+</section>

@@ -1,13 +1,15 @@
-<div class="status--banner__beta">
-  <div class="container">
-    <span class="hint">beta</span>
-    <ul class="list--flex">
-      <li>
-        These pages are being tested. Jenna <a href="http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/">Give feedback</a> to help improve them.
-      </li>
-      <li>
-        Go to <a href="http://www.parliament.uk">current website</a>
-      </li>
-    </ul>
+<section>
+  <div class="status--banner__beta">
+    <div class="container">
+      <span class="hint">beta</span>
+      <ul class="list--flex">
+        <li>
+          These pages are being tested. Jenna <a href="http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/">Give feedback</a> to help improve them.
+        </li>
+        <li>
+          Go to <a href="http://www.parliament.uk">current website</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+</section>
