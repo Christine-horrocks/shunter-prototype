@@ -1,0 +1,30 @@
+<section>
+  <div class="container">
+
+    <div class="container">
+      <h3>
+        {data.subheading}
+      </h3>
+    </div>
+
+    <ol class='list--block'>
+      {#data.list-items}
+        <li>
+          <div class="list--details">
+          <h4>
+            <a href="{link}">{link-text}</a>
+          </h4>
+          <p>{additional-text}</p>
+        </div>
+        </li>
+      {/data.list-items}
+    </ol>
+
+    <div class="status--highlight">
+      <p>
+        <a href="{data.blog-link}">{data.blog-text}</a>
+      </p>
+    </div>
+
+  </div>
+</section>

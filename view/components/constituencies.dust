@@ -3,13 +3,6 @@
     <ul class='list--block'>
       {#data}
       <li>
-       {! <figure>
-          <a href='/constituencies/{graph_id}' tabindex='-1'>
-            <picture>
-              <img alt='{display_name}' src='{image_url}'>
-            </picture>
-          </a>
-      </figure> !}
         <div class='list--details'>
           <h2>
             <a href="/constituencies/{graph_id}">{constituency_name}</a>
