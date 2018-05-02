@@ -6,9 +6,9 @@
       <h1>
         {data.title}
       </h1>
-      <p>We're building a
-        <a href="https://pds.blog.parliament.uk/2017/02/14/a-new-website-for-parliament-first-public-steps/"> new website for Parliament</a>.
-        Pages with a beta label are being tested and improved. They may not work for everyone.
+      <p>{data.prelink-text}
+        <a href={data.link}> {data.link-text}</a>.
+        {data.postlink-text}
       </p>
     </div>
   </div>
