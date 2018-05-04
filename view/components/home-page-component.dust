@@ -12,9 +12,9 @@
         <li>
           <div class="list--details">
           <h4>
-            <a href="{link}">{link-text}</a>
+            {text-with-link|s}
           </h4>
-          <p>{additional-text}</p>
+          <p></p>
         </div>
         </li>
       {/data.list-items}
@@ -22,7 +22,7 @@
 
     <div class="status--highlight">
       <p>
-        <a href="{data.blog-link}">{data.blog-text}</a>
+        {data.blog-text-with-link|s}
       </p>
     </div>
 
