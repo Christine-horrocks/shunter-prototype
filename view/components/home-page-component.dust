@@ -12,9 +12,9 @@
         <li>
           <div class="list--details">
           <h4>
-            {text-with-link|s}
+            {link|s}
           </h4>
-          <p></p>
+          <p>{additional-text}</p>
         </div>
         </li>
       {/data.list-items}
