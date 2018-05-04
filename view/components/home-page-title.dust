@@ -6,9 +6,11 @@
       <h1>
         {data.title}
       </h1>
-      <p>{data.prelink-text}
-        <a href={data.link}> {data.link-text}</a>.
-        {data.postlink-text}
+      <p>
+        {data.text-with-new-website-link|s}
+      </p>
+      <p>
+        {data.text-with-old-website-link|s}
       </p>
     </div>
   </div>
