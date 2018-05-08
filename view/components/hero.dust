@@ -6,12 +6,15 @@
       <h1>
         {data.title}
       </h1>
-      <p>
+      {#data.additional-text}
+        <p>{.|s}</p>
+      {/data.additional-text}
+      {! <p>
         {data.text-with-new-website-link|s}
       </p>
       <p>
         {data.text-with-old-website-link|s}
-      </p>
+      </p> !}
     </div>
   </div>
 </section>

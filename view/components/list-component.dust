@@ -3,7 +3,7 @@
 
     <div class="container">
       <h3>
-        {data.subheading}
+        {data.heading}
       </h3>
     </div>
 
@@ -12,19 +12,15 @@
         <li>
           <div class="list--details">
           <h4>
-            {link|s}
+            <a href={link}>{link-text}</a>
           </h4>
-          <p>{additional-text}</p>
+          {#additional-text}
+            <p>{.}</p>
+          {/additional-text}
         </div>
         </li>
       {/data.list-items}
     </ol>
-
-    <div class="status--highlight">
-      <p>
-        {data.blog-text-with-link|s}
-      </p>
-    </div>
 
   </div>
 </section>
