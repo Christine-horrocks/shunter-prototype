@@ -1,18 +1,18 @@
 <section>
   <div class="container">
     <div class="block--border__bottom">
-      <h2>Related links</h2>
+      <h2>{data.title}</h2>
       <dl class="list--definition">
-        {#data.website}
-          <dt>Website: </dt>
+        {#data.website-link}
+          <dt>{data.website}</dt>
           <dd><a href="{.}">{.}</a></dd>
-        {/data.website}
-        {#data.twitter}
-          <dt>Twitter: </dt>
+        {/data.website-link}
+        {#data.twitter-link}
+          <dt>{data.twitter}</dt>
           <dd><a href="{.}">{.}</a></dd>
-        {/data.twitter}
+        {/data.twitter-link}
       </dl>
-      <p>{data.name}’s official portrait is <a href="{data.media-url}">available to download</a>.</p>
+      <p>{data.name}{data.portrait} <a href="{data.media-url}">{data.portrait-link}</a>.</p>
     </div>
   </div>
 </section>
