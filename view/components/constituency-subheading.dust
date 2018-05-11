@@ -1,10 +1,10 @@
 <section>
   <div class="container">
       {?data.current}
-         <p class="lead">Constituency in <a href="/places/W08000001">{data.subheading}</a></p>
+         <p class="lead">{data.additional_text}<a href="/places/W08000001">{data.subheading}</a></p>
       {:else}
           <p>{data.subheading}</p>
-          <p>This is a former constituency. <a href="/constituencies/current">View current constituencies</a>.</p>
+          <p>{data.additional_text|s}</p>
       {/data.current}
   </div>
 </section>
