@@ -1,0 +1,18 @@
+<section>
+  <div class="container">
+    <div class="block--border__bottom">
+      <h2>Related links</h2>
+      <dl class="list--definition">
+        {#data.website}
+          <dt>Website: </dt>
+          <dd><a href="{.}">{.}</a></dd>
+        {/data.website}
+        {#data.twitter}
+          <dt>Twitter: </dt>
+          <dd><a href="{.}">{.}</a></dd>
+        {/data.twitter}
+      </dl>
+      <p>{data.name}’s official portrait is <a href="{data.media-url}">available to download</a>.</p>
+    </div>
+  </div>
+</section>

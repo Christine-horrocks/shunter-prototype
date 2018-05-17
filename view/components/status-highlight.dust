@@ -1,0 +1,11 @@
+<section>
+  <div class="container">
+
+    <div class="status--highlight">
+      <p>
+        {data.blog-text-with-link|s}
+      </p>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,23 @@
+<section>
+  <div class="container">
+    <div class="block">
+      <h2>Contact</h2>
+      <dl class="list--definition">
+        {#data.contact-points}
+          <dt>Email: </dt>
+          <dd>
+            <a href="mailto:{.email}">{.email}</a>
+          </dd>
+          <dt>Phone: </dt>
+          <dd>
+            <a href="tel:{.phone}">{.phone}</a>
+          </dd>
+          <dt>Address: </dt>
+          {#.addresses}
+            <dd>{.}</dd>
+          {/.addresses}
+        {/data.contact-points}
+      </dl>
+    </div>
+  </div>
+</section>

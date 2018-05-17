@@ -1,0 +1,28 @@
+<section id='content' tabindex='0'>
+  <div class='container'>
+    <ul class='list--block'>
+      {#data}
+        {?current}
+          <li>
+            <div class='list--details'>
+              <h2>
+                <a href="/constituencies/{constituency_hash.graph_id}">{constituency_hash.constituency_name}</a>
+              </h2>
+              <p>{constituency_hash.current_member}</p>
+              <p>{constituency_hash.party}</p>
+            </div>
+          </li>
+          {:else}
+            <li>
+              <div class='list--details'>
+                <h2>
+                  <a href="/constituencies/{constituency_hash.graph_id}">{constituency_hash.constituency_name}</a>
+                </h2>
+                <p>{constituency_hash.subtitle}</p>
+              </div>
+            </li>
+        {/current}
+      {/data}
+    </ul>
+  </div>
+</section>

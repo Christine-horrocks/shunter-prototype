@@ -1,0 +1,13 @@
+<section>
+  <div class="container">
+
+    <h2>
+      {data.heading}
+    </h2>
+
+    {#data.additional-text}
+      <p>{.|s}</p>
+    {/data.additional-text}
+
+  </div>
+</section>

@@ -1,0 +1,22 @@
+{
+  "name": "shunter-prototype",
+  "version": "1.0.0",
+  "description": "Front end prototype for the UK Parliament website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukparliament/shunter-prototype.git"
+  },
+  "author": "UK Parliament",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukparliament/shunter-prototype/issues"
+  },
+  "dependencies": {
+    "i18n": "^0.8.3",
+    "shunter": "^4.11.3"
+  }
+}

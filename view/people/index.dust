@@ -1,0 +1,17 @@
+<section id='content' tabindex='0'>
+  <div class='container'>
+    <ul class='list--block'>
+      {#people}
+      <li>
+        <div class='list--details'>
+          <h2>
+            <a href="beta.parliament.uk/people/{graph_id}">{display_name}</a>
+          </h2>
+          <p> {role}</p>
+          <p> {current_party}</p>
+        </div>
+      </li>
+      {/people}
+    </ul>
+  </div>
+<section>

@@ -1,0 +1,18 @@
+<nav aria-label="navigation" class="navigation--main">
+  <div class="container">
+    <ul>
+      <li>
+        <a href="/mps">MPs</a>
+      </li>
+      <li>
+        <a href="/houses/WkUWUBMx/members/current/a-z/a">Lords</a>
+      </li>
+      <li>
+        <a href="/find-your-constituency">Constituencies</a>
+      </li>
+      <li>
+        <a href="/houses/1AFu55Hs/parties/current">Parties and groups</a>
+      </li>
+    </ul>
+  </div>
+</nav>

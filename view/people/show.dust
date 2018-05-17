@@ -1,0 +1,22 @@
+<main>
+  <div class="section--primary" id="content" tabindex="0">
+    <div class="container">
+      <h1>{components.heading1}</h1>
+      <p class="lead">
+        {components.subheading}
+      </p>
+      {>"components__{components.image.template}"/}
+    </div>
+  </div>
+
+  {>"components__{components.contact.template}"/}
+
+  <section>
+    <div class="container">
+      {>"components__{components.roles.template}"/}
+      {>"components__{components.timeline.template}"/}
+    </div>
+  </section>
+</main>
+
+{>"components__{components.related-links.template}"/}

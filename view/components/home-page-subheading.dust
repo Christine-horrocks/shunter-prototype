@@ -1,0 +1,7 @@
+<section>
+    <div class="container">
+      <h2>
+        {data.subheading}
+      </h2>
+    </div>
+</section>
