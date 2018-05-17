@@ -1,0 +1,7 @@
+<section>
+  <div class="container">
+      {#data.text}
+        <p>{.|s}</p>
+      {/data.text}
+  </div>
+</section>

@@ -1,6 +1,9 @@
 // Require in Shunter
 var shunter = require('shunter');
 
+//Require i18n.node modules
+var i18n = require('i18n');
+
 // Create a Shunter application, passing in options
 var app = shunter({
 
@@ -29,6 +32,12 @@ var app = shunter({
     },
     jsonViewParameter: 'json'
 });
+
+
+  i18n.configure({
+    locales:['en', 'de'],
+    directory: __dirname + '/locales'
+  });
 
 // Start the application
 app.start();

@@ -4,7 +4,7 @@
       <div class="dropdown__toggle">
         <h3>
           <a href="#">
-            {data.title}
+            {@__t key='.title' /}  
           </a>
         </h3>
       </div>
