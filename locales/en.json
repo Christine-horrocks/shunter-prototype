@@ -1,0 +1,17 @@
+{
+	"english": {
+		"greeting": {
+			"hello": "Hello there"
+		},
+		"farewell": {
+			"bye": "See you later"
+		}
+    },
+    "home": {
+        "index": {
+            "whats_on": {
+                "title": "What's on at Parliament!"
+            }
+        }
+    }
+}

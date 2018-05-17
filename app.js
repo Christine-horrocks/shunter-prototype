@@ -26,12 +26,9 @@ var app = shunter({
           "port": 3000
         }
       }
-    }
-
+    },
+    jsonViewParameter: 'json'
 });
 
 // Start the application
 app.start();
-
-// // data/home.json comments
-// layout.template is required
