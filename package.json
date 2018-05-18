@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "mocha": "^5.1.1",
-    "sinon": "^5.0.7"
+    "sinon": "^5.0.7",
+    "walk-sync": "^0.3.2"
   }
 }
