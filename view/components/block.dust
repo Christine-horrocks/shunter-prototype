@@ -1,0 +1,9 @@
+<section>
+  <div class="container">
+    <div class={data.klass}>
+      {#data.components}
+        {>"components__{name}" name=name data=data/}
+      {/data.components}
+    </div>
+  </div>
+</section>

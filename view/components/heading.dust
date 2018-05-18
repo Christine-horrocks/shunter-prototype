@@ -1,7 +1,1 @@
-<section>
-  <div class="section--primary" id="heading" tabindex="0">
-    <div class="container">
-      <h{data.weight}>{data.heading|s}</h{data.weight}>
-    </div>
-  </div>
-</section>
+<h{data.weight}>{data.heading|s}</h{data.weight}>
