@@ -16,6 +16,7 @@
     "url": "https://github.com/ukparliament/shunter-prototype/issues"
   },
   "dependencies": {
-    "shunter": "*"
+    "i18n": "^0.8.3",
+    "shunter": "^4.11.3"
   }
 }
