@@ -1,13 +1,13 @@
 var assert = require('assert');
-var helper = require('shunter').testhelper();
-var fs = require('fs');
+var shunterTestHelper = require('shunter').testhelper();
+var fixtureHelper = require('../../helpers/fixture-helper');
 
-var passed_json = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/json/home_page/home_page.json', 'utf8');
-var expected_html = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/html/home_page/home_page.html', 'utf8');
+var passed_json = fixtureHelper.getJSONFixture('/Users/Allan/parliament/shunter-prototype/test/fixtures/json/home_page/home_page.json');
+var expected_html = fixtureHelper.getHTMLFixture('/Users/Allan/parliament/shunter-prototype/test/fixtures/html/home_page/home_page.html');
 
 describe('Home page', function() {
     before(function() {
-        helper.setup(
+        shunterTestHelper.setup(
             '../../../view/layout.dust',
             '../../../view/components/cookie-banner.dust',
             '../../../view/components/banner.dust',
@@ -21,10 +21,10 @@ describe('Home page', function() {
         ); 
     });
 
-    after(helper.teardown);
+    after(shunterTestHelper.teardown);
 
     it('should render the homepage', function(done) {
-        helper.render('layout', JSON.parse(passed_json), function(error, dom, output) {
+        shunterTestHelper.render('layout', JSON.parse(passed_json), function(error, dom, output) {
             assert.strictEqual(expected_html, output);
             done();
         });
