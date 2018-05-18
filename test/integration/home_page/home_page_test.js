@@ -2,11 +2,10 @@ var assert = require('assert');
 var helper = require('shunter').testhelper();
 var fs = require('fs');
 
-var passed_json = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/json/home_page.json', 'utf8');
-var expected_html = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/html/home_page.html', 'utf8');
-console.log(JSON.parse(passed_json));
+var passed_json = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/json/home_page/home_page.json', 'utf8');
+var expected_html = fs.readFileSync('/Users/Allan/parliament/shunter-prototype/test/fixtures/html/home_page/home_page.html', 'utf8');
 
-describe('Foo bar', function() {
+describe('Home page', function() {
     before(function() {
         helper.setup(
             '../../../view/layout.dust',
@@ -21,6 +20,7 @@ describe('Foo bar', function() {
             '../../../view/components/footer.dust'
         ); 
     });
+
     after(helper.teardown);
 
     it('should render the homepage', function(done) {
