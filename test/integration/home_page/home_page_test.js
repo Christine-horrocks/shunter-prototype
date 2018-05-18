@@ -24,7 +24,7 @@ describe('Home page', function() {
     after(shunterTestHelper.teardown);
 
     it('should render the homepage', function(done) {
-        shunterTestHelper.render('layout', JSON.parse(passed_json), function(error, dom, output) {
+        shunterTestHelper.render('layout', passed_json, function(error, dom, output) {
             assert.strictEqual(expected_html, output);
             done();
         });
