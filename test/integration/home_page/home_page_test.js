@@ -5,7 +5,6 @@ var paths = require('../../helpers/walk-helper');
 
 var json_fixture = fixtureHelper.getJSONFixture('home_page');
 var expected_html = fixtureHelper.getHTMLFixture('home_page');
-// var expected_html = fixtureHelper.getHTMLFixture('/Users/Allan/parliament/shunter-prototype/test/fixtures/html/home_page/home_page.html');
 
 describe('Home page', function() {
     before(function() {
