@@ -1,1 +1,1 @@
-<h{data.weight}>{data.heading|s}</h{data.weight}>
+<h{data.size}>{data.heading|s}</h{data.size}>
