@@ -5,20 +5,20 @@ var paths = require('../../helpers/walk-helper');
 
 var beautifyHTML = require('js-beautify').html;
 
-describe('Home page', function() {
+describe('People page', function() {
     before(function() {
         shunterTestHelper.setup(paths); 
     });
     
     after(shunterTestHelper.teardown);
     
-    it('should render the homepage', function(done) {
-        var jsonFixture = fixtureHelper.getJSONFixture('home_page');
-        var expectedHTML = fixtureHelper.getHTMLFixture('home_page');
+    it('should render the people show page', function(done) {
+        var jsonFixture = fixtureHelper.getJSONFixture('show_page');
+        var expectedHTML = fixtureHelper.getHTMLFixture('show_page');
 
         shunterTestHelper.render('layout', jsonFixture, function(error, dom, output) {
             assert.strictEqual(beautifyHTML(expectedHTML), beautifyHTML(output));
-
+            
             done();
         });
     })
