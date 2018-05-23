@@ -1,12 +1,7 @@
-<section>
-  <div class="container">
-    <h2>{data.title}</h2>
-    <{data.list-type}{?data.class-type} class="{data.class-type}"{/data.class-type}>
-      {#data.list-items}
-        <li>
-          {>"components__{data.type}-card" data=./}{~n}
-        </li>
-      {/data.list-items}
-    </{data.list-type}>
-  </div>
-</section>
+<{data.list-type}{?data.css-class} class="list{data.css-class}"{/data.css-class}>
+  {#data.list-items}
+    <li>
+      {>"components__{.name}" name=name data=data/}
+    </li>
+  {/data.list-items}
+</{data.list-type}>

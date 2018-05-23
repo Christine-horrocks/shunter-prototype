@@ -1,9 +1,9 @@
 
 <div class="list--details">
-  <h5>{.role-title}</h5>
-  <p>{.role-type}</p>
-  <p>{.role-count}</p>
-  {#.role-dates}
+  <h5>{data.role-title}</h5>
+  <p>{data.role-type}</p>
+  <p>{data.role-count}</p>
+  {#data.role-dates}
     <p>{.}</p>
-  {/.role-dates}
+  {/data.role-dates}
 </div>

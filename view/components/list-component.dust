@@ -1,5 +1,5 @@
 
-    <ol class='list--block'>
+    <{data.list-type} class='list--block'>
       {#data.list-items}
         <li>
           <div class="list--details">
@@ -12,4 +12,4 @@
         </div>
         </li>
       {/data.list-items}
-    </ol>
+    </{data.list-type}>
