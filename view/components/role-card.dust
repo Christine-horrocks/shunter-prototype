@@ -1,4 +1,3 @@
-
 <div class="list--details">
   <h5>{data.role-title}</h5>
   <p>{data.role-type}</p>
