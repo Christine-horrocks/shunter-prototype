@@ -3,7 +3,7 @@ var shunterTestHelper = require('shunter').testhelper();
 var fixtureHelper = require('../../helpers/fixture-helper');
 var paths = require('../../helpers/walk-helper');
 
-var beautifyHTML = require('js-beautify').html;
+var b = require('js-beautify').html;
 
 describe('Home page', function() {
     before(function() {
@@ -14,10 +14,11 @@ describe('Home page', function() {
     
     it('should render the homepage', function(done) {
         var jsonFixture = fixtureHelper.getJSONFixture('home_page');
-        var expectedHTML = fixtureHelper.getHTMLFixture('home_page');
 
         shunterTestHelper.render('layout', jsonFixture, function(error, dom, output) {
-            assert.strictEqual(beautifyHTML(expectedHTML), beautifyHTML(output));
+            var expectedHTML = fixtureHelper.getHTMLFixture('home_page');
+
+            assert.strictEqual(b(expectedHTML), b(output));
 
             done();
         });
