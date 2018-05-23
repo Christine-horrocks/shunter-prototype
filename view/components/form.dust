@@ -1,0 +1,7 @@
+<form id="{data.id}" action="{data.action}" accept-charset="UTF-8" method="{data.method}">
+    <div class="{data.inner-div-class}">
+        {#data.components} 
+            {>"components__{name}" name=name data=data/} 
+        {/data.components}
+    </div>
+</form>
