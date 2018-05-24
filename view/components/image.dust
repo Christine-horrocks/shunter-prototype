@@ -1,13 +1,8 @@
-<section>
-  <div class="container">
-    <figure>
-      <a href="{data.figure-url}", tabindex: "-1">
-        <picture>
-          <source srcset={data.image-srcset1}, media: "(min-width: 480px)">
-          <source srcset={data.image-srcset1}>
-          <img src="{data.image-src}" alt="{data.image-alt}">
-        </picture>
-      </a>
-    </figure>
-  </div>
-</section>
+<figure{?data.css_class} class="{data.css_class}"{/data.css_class}>
+  <a aria-hidden="true" href="/people/{data.figure-url}" tabindex="-1">
+    <picture>
+      <img alt src="{data.image_src}">
+    </picture>
+  </a>
+</figure>
+
