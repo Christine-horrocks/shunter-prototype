@@ -1,5 +1,3 @@
-{?data}
-    <div class="status--highlight theme--caution">
-        {data}
-    </div>
-{/data}
+<div class="status--highlight theme--caution">
+    {data}
+</div>
