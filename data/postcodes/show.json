@@ -30,7 +30,7 @@
                     {
                         "name": "block",
                         "data": {
-                            "css_class": "block",
+                            "css-class": "block",
                             "components": [
                                 {
                                     "name": "heading",
