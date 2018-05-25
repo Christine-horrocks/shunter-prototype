@@ -1,0 +1,8 @@
+<div class="list--details">
+  <h5>{data.role-title}</h5>
+  <p>{data.role-type}</p>
+  <p>{data.role-count}</p>
+  {#data.role-dates}
+    <p>{.}</p>
+  {/data.role-dates}
+</div>

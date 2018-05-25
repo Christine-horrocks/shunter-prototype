@@ -1,0 +1,6 @@
+
+    <div class={data.css_class}>
+      {#data.components}
+        {>"components__{name}" name=name data=data/}
+      {/data.components}
+    </div>

@@ -1,0 +1,3 @@
+{#data.content}
+  <p>{.|s}</p>
+{/data.content}

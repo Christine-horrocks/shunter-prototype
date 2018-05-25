@@ -1,7 +1,0 @@
-<section>
-  <div class="container" id="subheading">
-    <p class="lead">
-      {data}
-    </p>
-  </div>
-</section>

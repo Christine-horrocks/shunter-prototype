@@ -1,0 +1,1 @@
+<h{data.size}>{data.heading|s}</h{data.size}>

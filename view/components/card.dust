@@ -1,0 +1,7 @@
+<div class="card">
+  <div class="card__details">
+    {#data.components}
+      {>"components__{name}" name=name data=data/}
+    {/data.components}
+  </div>
+</div>

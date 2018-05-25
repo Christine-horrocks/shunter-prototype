@@ -1,0 +1,8 @@
+<dl class="list--definition">
+  {#data}
+    <dt>{.medium-name}</dt>
+    {#.medium-link}
+    <dd>{.|s}</dd>
+    {/.medium-link}
+  {/data}
+</dl>

@@ -30,5 +30,6 @@ var app = shunter({
     jsonViewParameter: 'json'
 });
 
+
 // Start the application
 app.start();

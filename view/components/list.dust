@@ -1,0 +1,7 @@
+<{data.list-type}{?data.css-class} class="list{data.css-class}"{/data.css-class}>
+  {#data.list-items}
+    <li>
+      {>"components__{.name}" name=name data=data/}
+    </li>
+  {/data.list-items}
+</{data.list-type}>

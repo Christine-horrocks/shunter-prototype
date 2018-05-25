@@ -1,7 +1,0 @@
-<section>
-  <div class="section--primary" id="heading1" tabindex="0">
-    <div class="container">
-      <h1>{data}</h1>
-    </div>
-  </div>
-</section>
