@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="dropdown"
+    <div class="dropdown__toggle">
+      <div class="dropdown__content">
+        <div class="track">
+          {#data.components}
+            {>"components__{name}" name=name data=data/}
+          {/data.components}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

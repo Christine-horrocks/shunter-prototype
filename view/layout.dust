@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>{title}</title>
-    <link href="https://s3-eu-west-1.amazonaws.com/web1live.pugin-website/1.7.5/stylesheets/main.css" rel="stylesheet">
+    <link href="https://static.parliament.uk/pugin/1.9.3/stylesheets/main.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <link href="https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -12,6 +12,6 @@
     {#components}
       {>"components__{name}" name=name data=data/}
     {/components}
-    <script src="https://s3-eu-west-1.amazonaws.com/web1live.pugin-website/1.8.1/javascripts/main.js"></script>
+    <script src="https://static.parliament.uk/pugin/1.9.3/javascripts/main.js"></script>
 </body>
 </html>
