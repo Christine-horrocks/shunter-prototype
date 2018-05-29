@@ -1,24 +1,20 @@
-<section>
-  <div class="container"
-    <div class="dropdown">
-      <div class="dropdown__toggle">
-        <h3>
-          <a href="#">
- 
-          </a>
-        </h3>
-      </div>
-      <div class="dropdown__content">
-        <p>{data.mps-can-help-with}</p>
-        <ul>
-          {#data.list}
-            <li>{.}</li>
-          {/data.list}
-        </ul>
-        <p><a href={data.link}>{data.who-else-can-help}</a></p>
-        <p>{data.discuss-with}</p>
-        <p>{data.contact-postcode}</p>
-      </div>
-    </div>
+<div class="dropdown">
+  <div class="dropdown__toggle">
+    <h3>
+      <a href="#">
+
+      </a>
+    </h3>
   </div>
-</section>
+  <div class="dropdown__content">
+    <p>{data.mps-can-help-with}</p>
+    <ul>
+      {#data.list}
+        <li>{.}</li>
+      {/data.list}
+    </ul>
+    <p><a href={data.link}>{data.who-else-can-help}</a></p>
+    <p>{data.discuss-with}</p>
+    <p>{data.contact-postcode}</p>
+  </div>
+</div>

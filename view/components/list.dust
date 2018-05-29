@@ -1,5 +1,4 @@
 <{data.list-type}{?data.css-class} class="list{data.css-class}"{/data.css-class}>
-  {?data.heading}<h2>{data.heading|s}</h2>{/data.heading}
   {#data.list-items}
     <li>
       {>"components__{.name}" name=name data=data/}

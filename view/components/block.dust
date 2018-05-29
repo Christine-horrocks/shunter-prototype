@@ -1,4 +1,4 @@
-<div class={data.css_class}>
+<div class={data.css-class}>
   {#data.components}
     {>"components__{name}" name=name data=data/}
   {/data.components}
