@@ -46,7 +46,7 @@
                         "name": "list",
                         "data": {
                             "list-type": "ul",
-                            "css_class": "list--block",
+                            "css-class": "--block",
                             "components": [
                                 {
                                     "name": "card",
@@ -55,9 +55,9 @@
                                             {
                                                 "name": "image",
                                                 "data": {
-                                                    "css_class": "avatar--round",
-                                                    "figure_url": "wVI7ebTP",
-                                                    "image_src": "https://static.parliament.uk/pugin/1.9.3/images/placeholder_members_image.png"
+                                                    "css-class": "avatar--round",
+                                                    "figure-url": "/people/wVI7ebTP",
+                                                    "image-src": "https://static.parliament.uk/pugin/1.9.3/images/placeholder_members_image.png"
 
                                                 }
                                             },

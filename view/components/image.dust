@@ -1,7 +1,7 @@
-<figure{?data.css_class} class="{data.css_class}"{/data.css_class}>
-  <a aria-hidden="true" href="/people/{data.figure-url}" tabindex="-1">
+<figure{?data.css-class} class="{data.css-class}"{/data.css-class}>
+  <a aria-hidden="true" href="{data.figure-url}" tabindex="-1">
     <picture>
-      <img alt src="{data.image_src}">
+      <img alt src="{data.image-src}">
     </picture>
   </a>
 </figure>
